@@ -1,6 +1,6 @@
 {
   "name": "koa",
-  "version": "2.3.0",
+  "version": "2.4.1",
   "description": "Koa web app framework",
   "main": "lib/application.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "destroy": "^1.0.3",
     "error-inject": "~1.0.0",
     "escape-html": "~1.0.1",
-    "fresh": "^0.5.0",
+    "fresh": "^0.5.2",
     "http-assert": "^1.1.0",
     "http-errors": "^1.2.8",
     "is-generator-function": "^1.0.3",
@@ -48,8 +48,8 @@
     "vary": "^1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
     "eslint": "^3.17.1",
+    "eslint-config-koa": "^2.0.0",
     "eslint-config-standard": "^7.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^2.1.1",
@@ -58,7 +58,7 @@
     "supertest": "^3.0.0"
   },
   "engines": {
-    "node": ">= 6.0.0"
+    "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
   },
   "files": [
     "lib"
